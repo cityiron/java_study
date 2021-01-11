@@ -1,4 +1,4 @@
-package com.funnycode;
+package com.funnycode.issue900;
 
 import java.io.Serializable;
 

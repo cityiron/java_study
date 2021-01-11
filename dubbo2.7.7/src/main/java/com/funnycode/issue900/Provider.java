@@ -1,4 +1,4 @@
-package com.funnycode;
+package com.funnycode.issue900;
 
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ProtocolConfig;

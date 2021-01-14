@@ -6,9 +6,13 @@
 
   <groupId>com.funnycode</groupId>
   <artifactId>dubbo2.7.7</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>dg-issue900</module>
+    </modules>
 
-  <name>dubbo2.7.7</name>
+    <name>dubbo2.7.7</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

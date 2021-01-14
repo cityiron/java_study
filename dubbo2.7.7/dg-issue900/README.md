@@ -29,12 +29,12 @@ docker build -t jd-provider:0.0.1 .
 
 ```bash
 docker pull ironc/jd-provider:dgissue900
-docker run --network host -it ironc/jd-provider:dgissue900 java-provider
+docker run --network host --name java-provider -it ironc/jd-provider:dgissue900
 ```
 
 ```bash
 docker pull ironc/jd-consumer:dgissue900
-docker run --network host -it ironc/jd-consumer:dgissue900 java-consumer
+docker run --network host --name java-consumer -it ironc/jd-consumer:dgissue900
 ```
 
 正常输出：
@@ -42,5 +42,3 @@ docker run --network host -it ironc/jd-consumer:dgissue900 java-consumer
 ```bash
 Hello tc You are 18
 ```
-
-

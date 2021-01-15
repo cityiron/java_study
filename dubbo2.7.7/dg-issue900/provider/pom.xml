@@ -37,7 +37,7 @@
                     <archive>
                         <manifest>
                             <!-- 此处指定main方法入口的class，这个很重要，jar包启动之后就会执行这个main方法，从而实现我们的需    求 -->
-                            <mainClass>com.ironcity.Provider</mainClass>
+                            <mainClass>com.funnycode.Provider</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

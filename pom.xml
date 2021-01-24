@@ -7,6 +7,8 @@
         <module>dubbo2.7.7</module>
         <module>dubbo3.0</module>
         <module>dubbo2.6.5</module>
+        <module>kubernetes</module>
+        <module>netty</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

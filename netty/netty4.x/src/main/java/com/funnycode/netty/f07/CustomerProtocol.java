@@ -72,11 +72,11 @@ public class CustomerProtocol {
                                     }
                                     byte[] data = new byte[dataLength];
                                     in.readBytes(data);
-                                    SerializeService serializeService = getSerializeServiceByType(serializeType);
-                                    Object obj = serializeService.deserialize(data);
-                                    if (obj != null) {
-                                        out.add(obj);
-                                    }
+                                    //SerializeService serializeService = getSerializeServiceByType(serializeType);
+                                    //Object obj = serializeService.deserialize(data);
+                                    //if (obj != null) {
+                                    //    out.add(obj);
+                                    //}
                                 }
                             });
                     }

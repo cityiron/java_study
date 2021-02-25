@@ -9,26 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>kubernetes</artifactId>
+    <artifactId>spring</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>fabric8</module>
+        <module>spring5.x</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <!-- https://mvnrepository.com/artifact/io.fabric8/kubernetes-client -->
-            <dependency>
-                <groupId>io.fabric8</groupId>
-                <artifactId>kubernetes-client</artifactId>
-                <version>5.0.0</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 </project>
